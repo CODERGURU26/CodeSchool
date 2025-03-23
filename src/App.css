@@ -21,12 +21,12 @@ body {
   object-fit: contain;
 }
 
-nav {
+/* nav {
   background: darkorange;
   display: flex;
   justify-content: space-around;
   box-shadow: 0 16px 8px 0 rgba (0, 0, 0, 0.8)
-}
+} */
 
 nav ul {
   display: flex;

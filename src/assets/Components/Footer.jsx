@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
                 <div id="info">
                     <img src="https://png.pngtree.com/png-clipart/20230409/original/pngtree-school-logo-design-png-image_9037661.png" className="w-[300px]"/>
-                    <h1 className="text-3xl">Engineering College</h1>
+                    <h1 className="md:text-3xl">Engineering College</h1>
                 </div>
             </div>
         </footer>

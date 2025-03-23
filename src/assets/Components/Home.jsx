@@ -19,13 +19,13 @@ const Home = () => {
     <>
       <Navbar />
       <header>
-        <div className="grid grid-cols-2 p-16  bg-linear-to-t from-sky-500 to-indigo-500">
+        <div className="md:grid grid-cols-2 md:p-16  bg-linear-to-t from-sky-500 to-indigo-500">
           <div>
             <img src={studentImg} className="w-100 rounded-full animate__animated animate__backInDown border border-2 shadow-[0_35px_35px_rgba(0,0,0,0.25)] " />
 
           </div>
 
-          <div className="flex flex-col gap-10 ">
+          <div className="md:flex flex-col gap-10 ">
             <h1 className="text-7xl text-white font-semibold">Hey! CodingGuru Institutions</h1>
             <p className="text-2xl text-white">Welcome To Our Digital Learning Platform By CodingGuru</p>
             <div className="flex gap-10">
@@ -45,7 +45,7 @@ const Home = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem voluptate, ut quod sequi libero ullam tenetur.
           </p>
           
-        <div className=" w-11/12 p-24 mx-auto  mb-16 grid grid-cols-4 flex gap-10">
+        <div className=" w-11/12 p-24 mx-auto  mb-16 grid md:grid-cols-4 flex gap-10">
           <div className="shadow-lg rounded-lg text-center">
             <i className="ri-artboard-line text-6xl mb-2"></i>
             <h1 className="font-bold text-center">Our Faculty</h1>

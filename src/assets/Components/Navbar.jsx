@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const Navbar = () => {
     return (
         <>
-            <nav>
+            <nav className="md:flex md:justify-around bg-orange-400">
 
                 <div id="logo">
                     <img src="https://png.pngtree.com/png-clipart/20230409/original/pngtree-school-logo-design-png-image_9037661.png"                 
@@ -18,7 +18,7 @@ const Navbar = () => {
                     <li>< Link to="/ContactUs">Contact Us </Link></li>
                     <li><Link to="/Holidays">Holidays</Link></li>
 
-                    <button>Get Started</button>
+         
                 </ul>
             </nav>
         </>
