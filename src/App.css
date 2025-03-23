@@ -1,0 +1,156 @@
+ @import "tailwindcss";
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#logo img {
+  width: 100px;
+  object-fit: contain;
+}
+
+nav {
+  background: darkorange;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 16px 8px 0 rgba (0, 0, 0, 0.8)
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+a:hover {
+  color: yellow;
+}
+
+nav ul button {
+  background-color: dodgerblue;
+  padding: 14px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+footer {
+  
+  width: 100vw;
+  background: rgb(5, 1, 52)
+}
+footer h1{
+  color: aliceblue;
+  text-align: center;
+}
+#main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 45px;
+}
+footer #link ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: start;
+}
+
+footer #link ul a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+footer #link ul a:hover{
+  color: yellow;
+}
+
+footer #social ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: start;
+}
+
+footer #social ul a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+footer #social ul a:hover{
+  color: yellow
+}
+
+footer #enquiry{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+footer #enquiry input{
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  filter: drop-shadow(0px 10px 10px #444);
+}
+footer #enquiry button{
+  background-color: yellow;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color:  black;
+  font-size: 14px;
+  font-weight: bolder;
+  filter: drop-shadow(0px 10px 10px #444);
+}
+
+#teach-head{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,173,255,1) 0%, rgba(55,65,255,1) 100.2% );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#teach-sect{
+  background-image: linear-gradient( 90.1deg,  rgba(8,81,98,1) 14.5%, rgba(198,231,249,1) 135.4% );
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 80px 0;  
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.teach-img-container{
+  width: 24%;  
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 10px;
+  filter: drop-shadow(5px 5px 10px rgba(0 , 0 , 0 , 0.3));
+}
+.teach-text{
+  color: white;
+  text-align: center;
+} 
